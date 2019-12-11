@@ -50,6 +50,7 @@
 		2AD8A1ED23A11EB2007094D5 /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
 		2AD8A1F023A11EC5007094D5 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 		2AD8A1F323A11EF3007094D5 /* MatrixConvertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixConvertable.swift; sourceTree = "<group>"; };
+		2AD8A1F623A11F82007094D5 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		2AD8A1BB23A11B55007094D5 = {
 			isa = PBXGroup;
 			children = (
+				2AD8A1F623A11F82007094D5 /* MyPlayground.playground */,
 				2AD8A1C723A11B55007094D5 /* DLabKit */,
 				2AD8A1D223A11B55007094D5 /* DLabKitTests */,
 				2AD8A1C623A11B55007094D5 /* Products */,

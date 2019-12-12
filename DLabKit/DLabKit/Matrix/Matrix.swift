@@ -39,12 +39,12 @@ public struct Matrix {
      
      - Returns: A `Matrix` object with `val` throughout.
      */
-    public init(rows: Int, cols: Int, val: Double=0.0) {
+    public init(rows: Int, cols: Int, value: Double=0.0) {
         self.rows = rows
         self.rowNames = [String]()
         self.cols = cols
         self.colNames = [String]()
-        self.values = Vector(repeating: val, count: rows*cols)
+        self.values = Vector(repeating: value, count: rows*cols)
     }
     
     /**
@@ -168,6 +168,7 @@ extension Matrix : Equatable {
 }
 
 
+// MARK: -
 // MARK: Custom String Convertible
 
 extension Matrix: CustomStringConvertible {
@@ -202,10 +203,18 @@ extension Matrix: CustomStringConvertible {
 }
 
 
+// MARK: -
 
 extension Matrix: Codable {}
 
 
+// MARK: -
+
+extension Matrix: CustomPlaygroundDisplayConvertible {
+    public var playgroundDescription: Any {
+        return String(describing: self)
+    }
+}
 
 
 
@@ -221,13 +230,6 @@ precedencegroup MultiplicationPrecedence {
 
 public extension Matrix {
     
-    /// - Operator
-    static func -(left: Matrix, right: Matrix ) -> Matrix {
-        assert( left.rows == right.rows && left.cols == right.cols, "Non conforming matrices")
-        var ret = Matrix(rows: left.rows, cols: left.cols)
-        ret.values = left.values - right.values
-        return ret
-    }
     
     /// + Operator for 2 matrices
     static func +(left: Matrix, right: Matrix ) -> Matrix {
@@ -237,10 +239,11 @@ public extension Matrix {
         return ret
     }
     
-    /// + Operator for Matrix and Double
-    static func +( X: Matrix, val: Double ) -> Matrix {
-        var ret = X
-        ret.values = ret.values + val;
+    /// - Operator
+    static func -(left: Matrix, right: Matrix ) -> Matrix {
+        assert( left.rows == right.rows && left.cols == right.cols, "Non conforming matrices")
+        var ret = Matrix(rows: left.rows, cols: left.cols)
+        ret.values = left.values - right.values
         return ret
     }
     
@@ -263,6 +266,20 @@ public extension Matrix {
                 ret[i,j] =  (r * c).reduce(0,+)
             }
         }
+        return ret
+    }
+    
+    /// + Operator for Matrix and Double
+    static func +( X: Matrix, val: Double ) -> Matrix {
+        var ret = X
+        ret.values = ret.values + val;
+        return ret
+    }
+    
+    /// - Operator for Matrix and Double
+    static func -( X: Matrix, val: Double ) -> Matrix {
+        var ret = X
+        ret.values = ret.values - val;
         return ret
     }
     

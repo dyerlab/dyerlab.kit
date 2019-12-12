@@ -76,6 +76,18 @@ extension Array where Element == Double {
     }
     
     
+    /// Overload the subtraction operator
+    public static func - (vec: Vector, val: Double ) -> Vector {
+        let N = vec.count
+        
+        var ret = Array(repeating: 0.0, count: N)
+        for i in 0..<N {
+            ret[i] = vec[i] - val
+        }
+        return ret
+    }
+    
+    
     /// Overloading the multiplication operator
     public static func * (left: Vector, right: Vector ) -> Vector {
         let N = left.count

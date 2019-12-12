@@ -18,7 +18,7 @@ class MatrixTests: XCTestCase {
         XCTAssertTrue( m1 == m2 )
         XCTAssertTrue( m1[1,1] == m1[0,0] )
         
-        let m3 = Matrix(rows: 2, cols: 2, val: 42.0)
+        let m3 = Matrix(rows: 2, cols: 2, value: 42.0)
         XCTAssertTrue( m3[1,1] == 42.0 )
         
         let vec = sequence(from: 1, to: 4)

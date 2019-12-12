@@ -7,38 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A07186423A2922D00670A89 /* Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A07186323A2922D00670A89 /* Individual.swift */; };
+		2A07186623A2926D00670A89 /* Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A07186523A2926D00670A89 /* Population.swift */; };
 		2AB47CAF23A26F9900DC18BF /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CAE23A26F9900DC18BF /* Coordinate.swift */; };
 		2AB47CB023A26F9900DC18BF /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CAE23A26F9900DC18BF /* Coordinate.swift */; };
-		2AB47CBF23A26FA900DC18BF /* IndividualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB123A26FA900DC18BF /* IndividualTests.swift */; };
-		2AB47CC023A26FA900DC18BF /* IndividualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB123A26FA900DC18BF /* IndividualTests.swift */; };
-		2AB47CC123A26FA900DC18BF /* FrequenciesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB223A26FA900DC18BF /* FrequenciesTests.swift */; };
 		2AB47CC223A26FA900DC18BF /* FrequenciesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB223A26FA900DC18BF /* FrequenciesTests.swift */; };
-		2AB47CC323A26FA900DC18BF /* GenotypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB323A26FA900DC18BF /* GenotypeTests.swift */; };
 		2AB47CC423A26FA900DC18BF /* GenotypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB323A26FA900DC18BF /* GenotypeTests.swift */; };
-		2AB47CC523A26FA900DC18BF /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB423A26FA900DC18BF /* ArrayTests.swift */; };
 		2AB47CC623A26FA900DC18BF /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB423A26FA900DC18BF /* ArrayTests.swift */; };
-		2AB47CC723A26FA900DC18BF /* CoordinateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB523A26FA900DC18BF /* CoordinateTests.swift */; };
 		2AB47CC823A26FA900DC18BF /* CoordinateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB523A26FA900DC18BF /* CoordinateTests.swift */; };
-		2AB47CC923A26FA900DC18BF /* LocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB623A26FA900DC18BF /* LocusTests.swift */; };
-		2AB47CCA23A26FA900DC18BF /* LocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB623A26FA900DC18BF /* LocusTests.swift */; };
-		2AB47CCB23A26FA900DC18BF /* FileIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB723A26FA900DC18BF /* FileIOTests.swift */; };
-		2AB47CCC23A26FA900DC18BF /* FileIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB723A26FA900DC18BF /* FileIOTests.swift */; };
-		2AB47CCD23A26FA900DC18BF /* VectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB823A26FA900DC18BF /* VectorTests.swift */; };
 		2AB47CCE23A26FA900DC18BF /* VectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB823A26FA900DC18BF /* VectorTests.swift */; };
-		2AB47CCF23A26FA900DC18BF /* EdgeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB923A26FA900DC18BF /* EdgeTest.swift */; };
-		2AB47CD023A26FA900DC18BF /* EdgeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CB923A26FA900DC18BF /* EdgeTest.swift */; };
-		2AB47CD123A26FA900DC18BF /* MatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CBA23A26FA900DC18BF /* MatrixTests.swift */; };
 		2AB47CD223A26FA900DC18BF /* MatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CBA23A26FA900DC18BF /* MatrixTests.swift */; };
-		2AB47CD323A26FA900DC18BF /* GeneticStudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CBB23A26FA900DC18BF /* GeneticStudioTests.swift */; };
-		2AB47CD423A26FA900DC18BF /* GeneticStudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CBB23A26FA900DC18BF /* GeneticStudioTests.swift */; };
-		2AB47CD523A26FA900DC18BF /* PopgraphTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CBC23A26FA900DC18BF /* PopgraphTest.swift */; };
-		2AB47CD623A26FA900DC18BF /* PopgraphTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CBC23A26FA900DC18BF /* PopgraphTest.swift */; };
-		2AB47CD723A26FA900DC18BF /* NodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CBD23A26FA900DC18BF /* NodeTest.swift */; };
-		2AB47CD823A26FA900DC18BF /* NodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CBD23A26FA900DC18BF /* NodeTest.swift */; };
-		2AB47CD923A26FA900DC18BF /* PopulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CBE23A26FA900DC18BF /* PopulationTests.swift */; };
-		2AB47CDA23A26FA900DC18BF /* PopulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB47CBE23A26FA900DC18BF /* PopulationTests.swift */; };
 		2AD8A1CF23A11B55007094D5 /* DLabKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD8A1C523A11B55007094D5 /* DLabKit.framework */; };
-		2AD8A1D423A11B55007094D5 /* DLabKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8A1D323A11B55007094D5 /* DLabKitTests.swift */; };
 		2AD8A1D623A11B55007094D5 /* DLabKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AD8A1C823A11B55007094D5 /* DLabKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AD8A1E023A11B94007094D5 /* Genotype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8A1DF23A11B94007094D5 /* Genotype.swift */; };
 		2AD8A1E123A11B94007094D5 /* Genotype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8A1DF23A11B94007094D5 /* Genotype.swift */; };
@@ -67,26 +46,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A07186323A2922D00670A89 /* Individual.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Individual.swift; sourceTree = "<group>"; };
+		2A07186523A2926D00670A89 /* Population.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Population.swift; sourceTree = "<group>"; };
 		2AB47CAE23A26F9900DC18BF /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
-		2AB47CB123A26FA900DC18BF /* IndividualTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualTests.swift; sourceTree = "<group>"; };
 		2AB47CB223A26FA900DC18BF /* FrequenciesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrequenciesTests.swift; sourceTree = "<group>"; };
 		2AB47CB323A26FA900DC18BF /* GenotypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenotypeTests.swift; sourceTree = "<group>"; };
 		2AB47CB423A26FA900DC18BF /* ArrayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
 		2AB47CB523A26FA900DC18BF /* CoordinateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateTests.swift; sourceTree = "<group>"; };
-		2AB47CB623A26FA900DC18BF /* LocusTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocusTests.swift; sourceTree = "<group>"; };
-		2AB47CB723A26FA900DC18BF /* FileIOTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileIOTests.swift; sourceTree = "<group>"; };
 		2AB47CB823A26FA900DC18BF /* VectorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorTests.swift; sourceTree = "<group>"; };
-		2AB47CB923A26FA900DC18BF /* EdgeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeTest.swift; sourceTree = "<group>"; };
 		2AB47CBA23A26FA900DC18BF /* MatrixTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixTests.swift; sourceTree = "<group>"; };
-		2AB47CBB23A26FA900DC18BF /* GeneticStudioTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneticStudioTests.swift; sourceTree = "<group>"; };
-		2AB47CBC23A26FA900DC18BF /* PopgraphTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopgraphTest.swift; sourceTree = "<group>"; };
-		2AB47CBD23A26FA900DC18BF /* NodeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeTest.swift; sourceTree = "<group>"; };
-		2AB47CBE23A26FA900DC18BF /* PopulationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulationTests.swift; sourceTree = "<group>"; };
 		2AD8A1C523A11B55007094D5 /* DLabKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLabKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD8A1C823A11B55007094D5 /* DLabKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLabKit.h; sourceTree = "<group>"; };
 		2AD8A1C923A11B55007094D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AD8A1CE23A11B55007094D5 /* DLabKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLabKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AD8A1D323A11B55007094D5 /* DLabKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLabKitTests.swift; sourceTree = "<group>"; };
 		2AD8A1D523A11B55007094D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AD8A1DF23A11B94007094D5 /* Genotype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genotype.swift; sourceTree = "<group>"; };
 		2AD8A1E223A11D4B007094D5 /* Ploidy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ploidy.swift; sourceTree = "<group>"; };
@@ -161,19 +133,10 @@
 			children = (
 				2AB47CB423A26FA900DC18BF /* ArrayTests.swift */,
 				2AB47CB523A26FA900DC18BF /* CoordinateTests.swift */,
-				2AB47CB923A26FA900DC18BF /* EdgeTest.swift */,
-				2AB47CB723A26FA900DC18BF /* FileIOTests.swift */,
 				2AB47CB223A26FA900DC18BF /* FrequenciesTests.swift */,
-				2AB47CBB23A26FA900DC18BF /* GeneticStudioTests.swift */,
 				2AB47CB323A26FA900DC18BF /* GenotypeTests.swift */,
-				2AB47CB123A26FA900DC18BF /* IndividualTests.swift */,
-				2AB47CB623A26FA900DC18BF /* LocusTests.swift */,
 				2AB47CBA23A26FA900DC18BF /* MatrixTests.swift */,
-				2AB47CBD23A26FA900DC18BF /* NodeTest.swift */,
-				2AB47CBC23A26FA900DC18BF /* PopgraphTest.swift */,
-				2AB47CBE23A26FA900DC18BF /* PopulationTests.swift */,
 				2AB47CB823A26FA900DC18BF /* VectorTests.swift */,
-				2AD8A1D323A11B55007094D5 /* DLabKitTests.swift */,
 				2AD8A1D523A11B55007094D5 /* Info.plist */,
 			);
 			path = DLabKitTests;
@@ -183,7 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				2AD8A1E223A11D4B007094D5 /* Ploidy.swift */,
+				2A07186323A2922D00670A89 /* Individual.swift */,
 				2AD8A1DF23A11B94007094D5 /* Genotype.swift */,
+				2A07186523A2926D00670A89 /* Population.swift */,
 				2AD8A1E523A11E2E007094D5 /* GeneticDiversityType.swift */,
 				2AD8A1E823A11E63007094D5 /* Frequencies.swift */,
 			);
@@ -310,28 +275,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AB47CD123A26FA900DC18BF /* MatrixTests.swift in Sources */,
-				2AB47CC723A26FA900DC18BF /* CoordinateTests.swift in Sources */,
-				2AB47CCB23A26FA900DC18BF /* FileIOTests.swift in Sources */,
-				2AB47CCD23A26FA900DC18BF /* VectorTests.swift in Sources */,
+				2A07186623A2926D00670A89 /* Population.swift in Sources */,
 				2AD8A1E323A11D4B007094D5 /* Ploidy.swift in Sources */,
-				2AB47CCF23A26FA900DC18BF /* EdgeTest.swift in Sources */,
-				2AB47CD723A26FA900DC18BF /* NodeTest.swift in Sources */,
 				2AD8A1E023A11B94007094D5 /* Genotype.swift in Sources */,
-				2AB47CD923A26FA900DC18BF /* PopulationTests.swift in Sources */,
-				2AB47CC123A26FA900DC18BF /* FrequenciesTests.swift in Sources */,
 				2AD8A1F123A11EC5007094D5 /* Matrix.swift in Sources */,
 				2AB47CAF23A26F9900DC18BF /* Coordinate.swift in Sources */,
+				2A07186423A2922D00670A89 /* Individual.swift in Sources */,
 				2AD8A1F423A11EF3007094D5 /* MatrixConvertable.swift in Sources */,
 				2AD8A1EE23A11EB2007094D5 /* Vector.swift in Sources */,
-				2AB47CD323A26FA900DC18BF /* GeneticStudioTests.swift in Sources */,
-				2AB47CC923A26FA900DC18BF /* LocusTests.swift in Sources */,
-				2AB47CD523A26FA900DC18BF /* PopgraphTest.swift in Sources */,
 				2AD8A1E923A11E63007094D5 /* Frequencies.swift in Sources */,
 				2AD8A1E623A11E2E007094D5 /* GeneticDiversityType.swift in Sources */,
-				2AB47CC523A26FA900DC18BF /* ArrayTests.swift in Sources */,
-				2AB47CBF23A26FA900DC18BF /* IndividualTests.swift in Sources */,
-				2AB47CC323A26FA900DC18BF /* GenotypeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,26 +294,17 @@
 			files = (
 				2AB47CC423A26FA900DC18BF /* GenotypeTests.swift in Sources */,
 				2AB47CCE23A26FA900DC18BF /* VectorTests.swift in Sources */,
-				2AB47CDA23A26FA900DC18BF /* PopulationTests.swift in Sources */,
 				2AD8A1F223A11EC5007094D5 /* Matrix.swift in Sources */,
 				2AB47CC223A26FA900DC18BF /* FrequenciesTests.swift in Sources */,
 				2AD8A1E423A11D4B007094D5 /* Ploidy.swift in Sources */,
-				2AB47CD423A26FA900DC18BF /* GeneticStudioTests.swift in Sources */,
 				2AD8A1E723A11E2E007094D5 /* GeneticDiversityType.swift in Sources */,
 				2AD8A1EA23A11E63007094D5 /* Frequencies.swift in Sources */,
-				2AB47CC023A26FA900DC18BF /* IndividualTests.swift in Sources */,
-				2AB47CD623A26FA900DC18BF /* PopgraphTest.swift in Sources */,
-				2AB47CCC23A26FA900DC18BF /* FileIOTests.swift in Sources */,
 				2AD8A1F523A11EF3007094D5 /* MatrixConvertable.swift in Sources */,
-				2AB47CCA23A26FA900DC18BF /* LocusTests.swift in Sources */,
 				2AB47CB023A26F9900DC18BF /* Coordinate.swift in Sources */,
 				2AD8A1E123A11B94007094D5 /* Genotype.swift in Sources */,
 				2AB47CD223A26FA900DC18BF /* MatrixTests.swift in Sources */,
 				2AD8A1EF23A11EB2007094D5 /* Vector.swift in Sources */,
 				2AB47CC623A26FA900DC18BF /* ArrayTests.swift in Sources */,
-				2AD8A1D423A11B55007094D5 /* DLabKitTests.swift in Sources */,
-				2AB47CD823A26FA900DC18BF /* NodeTest.swift in Sources */,
-				2AB47CD023A26FA900DC18BF /* EdgeTest.swift in Sources */,
 				2AB47CC823A26FA900DC18BF /* CoordinateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

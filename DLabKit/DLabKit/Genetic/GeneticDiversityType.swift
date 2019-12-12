@@ -9,7 +9,7 @@
 import Foundation
 
 /// Enumeration across different kinds of genetic diversity to be estimated.
-enum GeneticDiversityType: String, CaseIterable {
+public enum GeneticDiversityType: String, CaseIterable {
     
     /// The raw number of alleles at a locus
     case A

@@ -73,20 +73,27 @@ public final class Genotype {
     }
 }
 
-// MARK: CustomStringConvertible
+
+
+
+
+
+
+
+// MARK: - CustomStringConvertible
 extension Genotype: CustomStringConvertible {
     public var description: String {
         return self.alleles.joined(separator: ":")
     }
 }
 
-// MARK: Equatable
+// MARK: - Equatable
 extension Genotype: Equatable {
     public static func == (lhs: Genotype, rhs: Genotype) -> Bool {
         return lhs.alleles == rhs.alleles
     }
 }
+// MARK: - Codable
 
-// MARK: Codable
 extension Genotype: Codable {}
 
